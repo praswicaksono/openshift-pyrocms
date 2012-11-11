@@ -1,4 +1,4 @@
-WolfCMS on OpenShift
+PyroCMS on OpenShift
 ====================
 
 This git repository helps you get up and running quickly w/ a PyroCMS installation
