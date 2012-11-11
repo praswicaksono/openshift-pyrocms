@@ -26,7 +26,7 @@
 			echo form_input(array(
 				'id' => 'hostname',
 				'name' => 'hostname',
-				'value' => set_value('hostname', $_ENV['OPENSHIFT_DB_HOST']),
+				'value' => set_value('hostname', $_ENV['OPENSHIFT_MYSQL_DB_HOST'])
 			));
 		?>
 		
@@ -39,7 +39,7 @@
 				echo form_input(array(
 					'id' => 'username',
 					'name' => 'username',
-					'value' => set_value('username', $_ENV['OPENSHIFT_DB_USERNAME'])
+					'value' => set_value('username', $_ENV['OPENSHIFT_MYSQL_DB_USERNAME'])
 				));
 			?>
 		</div>
@@ -50,7 +50,7 @@
 				echo form_password(array(
 					'id' => 'password',
 					'name' => 'password',
-					'value' => set_value('password', $_ENV['OPENSHIFT_DB_PASSWORD'])
+					'value' => set_value('password', $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD'])
 				));
 			?>
 			
@@ -62,7 +62,7 @@
 				echo form_input(array(
 					'id' => 'port',
 					'name' => 'port',
-					'value' => set_value('port', $_ENV['OPENSHIFT_DB_PORT'])
+					'value' => set_value('port', $_ENV['OPENSHIFT_MYSQL_DB_PORT'])
 				));
 			?>
 			

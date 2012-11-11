@@ -16,7 +16,7 @@
 
 	<div class="input">
 		<label for="database"><?php echo lang('database'); ?></label>
-		<input type="text" id="database" class="input_text" name="database" value="<?php echo set_value('database',  $_ENV['OPENSHIFT_APP_NAME'])); ?>" />
+		<input type="text" id="database" class="input_text" name="database" value="<?php echo set_value('database',  $_ENV['OPENSHIFT_APP_NAME']); ?>" />
 	</div>
 
 	<div class="input">
