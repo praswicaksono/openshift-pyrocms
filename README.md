@@ -5,7 +5,8 @@ This git repository helps you get up and running quickly w/ a PyroCMS installati
 on OpenShift.  The backend database is MySQL and the database name is the 
 same as your application name (using $_ENV['OPENSHIFT_APP_NAME']).  You can call
 your application by whatever name you want (the name of the database will always
-match the application).
+match the application). What you have todo is complete web installation of PyroCMS
+Database config in installation are already set using openshift environment.
 
 
 Running on OpenShift
@@ -36,4 +37,3 @@ That's it, you can now checkout your application at (default admin account is ad
 
     http://pyrocms-$yournamespace.rhcloud.com
     http://pyrocms-$yournamespace.rhcloud.com/admin for PyroCMS Administration
-
